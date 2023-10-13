@@ -2,7 +2,7 @@ void main(List<String> args) {
   List<int> input = [1, 3, 9, 5, 15];
   int sum = 0;
 
-  for (var i = 0; i <= input.length; i++) {
+  for (var i = 0; i < input.length; i++) {
     if (input[i] % 3 == 0) {
      
       sum += input[i];
@@ -10,3 +10,11 @@ void main(List<String> args) {
   }
   print(sum);
 }
+
+
+
+
+
+
+
+
