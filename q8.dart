@@ -1,3 +1,4 @@
+//print only integer from this list.
 
 void main() {
   List<dynamic> a = [1, 2, "a", "b"];
