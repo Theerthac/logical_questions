@@ -1,3 +1,6 @@
+
+
+//Palindrome
 void main(List<String> args) {
   String input = "madam";
   if (isPalindrome(input)) {
@@ -7,8 +10,8 @@ void main(List<String> args) {
   }
 }
 
-bool isPalindrome(String text) {
-  text = text.replaceAll('', '').toLowerCase();
-  String reversetext = text.split('').reversed.join();
-  return text == reversetext;
+bool isPalindrome(String input) {
+  input = input.replaceAll('', '').toLowerCase();
+  String reversetext = input.split('').reversed.join();
+  return input == reversetext;
 }
