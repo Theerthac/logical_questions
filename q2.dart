@@ -5,9 +5,7 @@
 // Given [34, 15, 88, 2] your solution will return 2
 // Given [34, -345, -1, 100] your solution will return -345
 
-
 void main(List<String> args) {
-
   List<int> a = [34, 15, 88, 2];
 
   int b = a[0];
@@ -15,8 +13,8 @@ void main(List<String> args) {
     if (a[i] < b) {
       b = a[i];
     }
-   
   }
+  print(b);
 }
 
 
