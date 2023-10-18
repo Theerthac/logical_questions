@@ -1,11 +1,10 @@
 void main(List<String> args) {
-  List<int> a = [1, 2, 3, 1, 3, 3];
-  int b = a[0];
-
-  for (var i = 0; i < a.length; i++) {
-    if (a.length % 2 == 1) {
-      
+  List<int> nums = [1, 2, 3, 1, 3, 3];
+  List<int> r = [];
+  for (var n in nums) {
+    if (nums.where((e) => e == n).toList().length.isEven) {
+      r.add(n);
     }
   }
-  print(b);
+  print(r);
 }

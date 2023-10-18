@@ -2,6 +2,9 @@
 
 // For example, for [1, 2, 2] it should return 9 .
 
+
+
+
 void main(List<String> args) {
   List<int> a = [1, 2, 2];
   int sum = 0;
@@ -13,6 +16,7 @@ void main(List<String> args) {
   }
   print(sum);
 }
+
 
 //   List<int> a = [1, 2, 3];
 //   int mul = 1;
