@@ -1,13 +1,13 @@
-
-
 //Palindrome
 void main(List<String> args) {
   String input = "madam";
-  if (isPalindrome(input)) {
-    print(true);
-  } else {
-    print(false);
-  }
+
+  print(isPalindrome(input));
+  // if (isPalindrome(input)) {
+  //   print(true);
+  // } else {
+  //   print(false);
+  // }
 }
 
 bool isPalindrome(String input) {
